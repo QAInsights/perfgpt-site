@@ -8,7 +8,7 @@ import { themes } from 'prism-react-renderer';
 const FeatureList = [
   {
     title: 'Kel',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    Svg: require('@site/static/img/kel-cli.svg').default,
     description: (
       <>
         An AI assistant for your terminal. Kel is a command-line interface that helps you to perform various tasks.        
@@ -18,7 +18,7 @@ const FeatureList = [
   },
   {
     title: 'Hamster - Mac Edition',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/hamster-mac.svg').default,
     description: (
       <>
         Launch JMeter and your recent test plan swiftly from your Mac menu bar.
@@ -28,7 +28,7 @@ const FeatureList = [
   },
   {
     title: 'Hamster - Windows Edition',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    Svg: require('@site/static/img/hamster-windows.svg').default,
     description: (
       <>
         Launch JMeter and your recent test plan swiftly from your Windows status bar.
@@ -38,7 +38,7 @@ const FeatureList = [
   },
   {
     title: 'JMeter Docker Extension',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/docker-extension.svg').default,
     description: (
       <>
         Start JMeter tests from Docker Desktop. No JMeter installation required.
@@ -48,17 +48,17 @@ const FeatureList = [
   },
   {
     title: 'JMeter Plugin - Validate Thread Group',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/jmeter-plugin.svg').default,
     description: (
       <>
         Quickly validate your Thread Group in JMeter in one click.
       </>
     ),
-    link: 'https://hub.docker.com/extensions/qainsights/jmeter-docker-extension'
+    link: 'https://github.com/QAInsights/validate-thread-group'
   },
   {
     title: 'PerfTractor',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@site/static/img/perftractor.svg').default,
     description: (
       <>
         Suite of calculators for performance testers.
